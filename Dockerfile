@@ -1,2 +1,2 @@
-FROM nginx:alpine
+FROM armhfbuild/nginx
 COPY . /usr/share/nginx/html
